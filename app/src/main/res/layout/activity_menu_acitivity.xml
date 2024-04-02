@@ -44,12 +44,12 @@
 
                 <ImageView
                     android:id="@+id/imageView1"
-                    android:layout_width="match_parent"
+                    android:layout_width="100dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
                     android:background="@android:color/transparent"
                     android:layout_gravity="center_horizontal"
-                    app:srcCompat="@drawable/profilee" />
+                    app:srcCompat="@drawable/profile" />
 
                 <TextView
                     android:id="@+id/textView3"
@@ -72,7 +72,7 @@
 
                 <ImageView
                     android:id="@+id/imageView2"
-                    android:layout_width="match_parent"
+                    android:layout_width="100dp"
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
                     android:background="@android:color/transparent"

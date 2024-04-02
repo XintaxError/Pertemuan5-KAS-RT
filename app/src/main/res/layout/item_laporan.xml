@@ -1,45 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="250dp"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/jumlahIuranBulananTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1. Jumlah Iuran Bulanan: "
-        android:textSize="17sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:padding="16dp"/>
-    <TextView
-        android:id="@+id/totalIuranTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="2. Total Iuran         : "
-        android:textSize="17sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:padding="16dp"/>
-    <TextView
-        android:id="@+id/pengeluaranTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="3. Pengeluraan     : "
-        android:textSize="17sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:padding="16dp"/>
-    <TextView
-        android:id="@+id/pemanfaatanTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="4. Pemanfaatan    : "
+        android:text="1. Jumlah Iuran Bulanan:"
         android:textSize="17sp"
         android:textStyle="bold"
         android:gravity="center"
         android:padding="16dp"/>
 
+    <TextView
+        android:id="@+id/totalIuranTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Total Iuran:"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/pengeluaranTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Pengeluaran:"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/pemanfaatanTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Pemanfaatan:"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"/>
 
 </LinearLayout>
